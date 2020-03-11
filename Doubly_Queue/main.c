@@ -12,6 +12,14 @@ int main()
 	L_enQueue(20);
 	R_enQueue(40);
 	R_enQueue(50);
+	printf("%d\n", IsEmpty());
+	printf("%d\n", R_deQueue());
+	printf("%d\n", R_deQueue());
+	printf("%d\n", R_deQueue());
+	printf("%d\n", R_deQueue());
+	printf("%d\n", R_deQueue());
+	printf("%d\n", IsEmpty());
+	
 	/*Test1
 	printf("%d\n", L_deQueue());
 	printf("%d\n", R_deQueue());
@@ -21,6 +29,7 @@ int main()
 	printf("%d\n", L_deQueue());
 	printf("%d\n", L_deQueue());
 	printf("%d\n", L_deQueue());
+	printf("%d\n", IsEmpty());
 	*/
 	/*Test3
 	printf("%d\n", R_deQueue());
@@ -28,6 +37,7 @@ int main()
 	printf("%d\n", R_deQueue());
 	printf("%d\n", R_deQueue());
 	printf("%d\n", R_deQueue());
+	printf("%d\n", IsEmpty());
 	*/
-
+	
 }

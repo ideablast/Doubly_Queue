@@ -71,7 +71,6 @@ int R_deQueue()//rear부터 나간다.
 
 		if (rear->L_Link != front->L_Link)
 		{
-
 			rear->L_Link = deQueue_mem->L_Link;
 			rear->L_Link->R_Link = deQueue_mem->R_Link;
 			free(deQueue_mem);
